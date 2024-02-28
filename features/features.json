@@ -1,6 +1,21 @@
 [
   {
     "version": 2,
+    "id": "quick-search",
+    "versionAdded": "v3.7.0"
+  },
+  {
+    "version": 2,
+    "id": "favicon-messages",
+    "versionAdded": "v3.7.0"
+  },
+  {
+    "version": 2,
+    "id": "show-emoji-names",
+    "versionAdded": "v3.7.0"
+  },
+  {
+    "version": 2,
     "id": "more-block-themes",
     "versionAdded": "v3.7.0"
   },
