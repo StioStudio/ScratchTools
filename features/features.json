@@ -1,6 +1,21 @@
 [
   {
     "version": 2,
+    "id": "project-version-detector",
+    "versionAdded": "v3.8.0"
+  },
+  {
+    "version": 2,
+    "id": "download-project",
+    "versionAdded": "v3.7.0"
+  },
+  {
+    "version": 2,
+    "id": "blur-modal",
+    "versionAdded": "v3.7.0"
+  },
+  {
+    "version": 2,
     "id": "quick-search",
     "versionAdded": "v3.7.0"
   },
