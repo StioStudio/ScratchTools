@@ -1,0 +1,77 @@
+.box .box-header h4 {
+    padding: 8px 20px 8px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 30px 35px;
+}
+.box .box-header p {
+    padding: 8px 20px !important;
+}
+.box .box-header {
+    padding: 0 !important;
+    height: auto !important;
+}
+/* .box-header h4 svg {
+    color : "red";
+} */
+.box-header h4 {
+    background-image: url(./img/QuestionMark.svg);
+}
+.STE-activity .box-header h4{
+    background-image: url(./img/WhatIsNew.svg);
+}
+.STE-scratchNews .box-header h4 {
+    background-image: url(./img/ScratchNews.svg);
+}
+.STE-featuredProject .box-header h4 {
+    background-image: url(./img/FeaturedProjects.svg);
+}
+.STE-featuredStudios .box-header h4 {
+    background-image: url(./img/FeaturedStudios.svg);
+}
+.STE-scratch-design-studio .box-header h4 {
+    background-image: url(./img/ScratchDesignStudio.svg);
+}
+.STE-a-projectsLovedByScratchersFollowing .box-header h4 {
+    background-image: url(./img/LovedByScratchersImFollowing.svg);
+}
+.STE-communityRemixing .box-header h4 {
+    background-image: url(./img/WhatTheCommunityIsRemixing.svg);
+}
+.STE-communityLoving .box-header h4 {
+    background-image: url(./img/WhatTheCommunityIsLoving.svg);
+}
+.scratchtoolsCustomStudio .box-header h4 {
+    background-image: url(./img/ScratchTools.svg);
+}
+.scratchtoolsOnline .box-head h4 {
+    background-image: url(./img/ScratchTools.svg);
+}
+
+/* view all link on box (a) */
+.box-header a {
+    /* display: none ; */
+    background-image: url(${addon.self.dir}/img/ViewAll.svg);
+    height: 17.594px;
+    width: 17.594px;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 0px;
+    float: right;
+    height: 17.594px;
+    width: 17.594px;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 0px;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40px 40px;
+    background-color: var(--projects-color-c-3);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40px 40px;
+}
+.box-header a:empty {
+    display: none;
+}
