@@ -38,6 +38,14 @@ export default async function ({ feature, console }) {
 	closeButton.addEventListener('click', () => {
 		document.querySelector(".ReactModalPortal").remove()
 	})
+	popup.querySelector(".ReactModal__Overlay").addEventListener('click', () => {
+		document.querySelector(".ReactModalPortal").remove()
+	})
+	addEventListener("keydown", (e) => {
+		if (e.key === "Escape") {
+			document.querySelector(".ReactModalPortal").remove()
+		}
+	})
 
 	const canvas = feature.traps.vm.renderer.canvas;
 	const preview = popup.querySelector("video")
