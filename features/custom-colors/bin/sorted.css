@@ -1,0 +1,240 @@
+.all-colors {
+    --background: hsl(0, 0%, 96%);
+    --feature: hsl(0, 0%, 89%);
+    --input: hsl(0, 0%, 89%);
+    --searchbar: hsl(0, 0%, 89%);
+    --secondary: hsl(0, 0%, 24%);
+    
+    --slider: hsl(214, 36%, 75%);
+    --gradient-a: hsl(215, 99%, 65%);
+    --gradient-b: hsl(215, 99%, 65%);
+    --scrollbar_active: hsl(215, 99%, 65%);
+    --scrollbar: hsl(215, 100%, 54%);
+    --primary: hsl(216, 99%, 58%);
+    --theme: hsl(216, 99%, 59%);
+
+    
+    --STE-text-h: 0;
+    --STE-text-s: 0%;
+    --STE-text-l: 0%;
+    --STE-text: hsl(var(--STE-text-h), var(--STE-text-s), var(--STE-text-l));
+
+    --STE-gray-h: 240;
+    --STE-gray-s: 10%;
+    --STE-gray-l: 50%;
+    --STE-gray: hsl(var(--STE-gray-h), var(--STE-gray-s), var(--STE-gray-l));
+
+    --STE-primary-h: 210;
+    --STE-primary-s: 100%;
+    --STE-primary-l: 80%;
+    --STE-primary: hsl(var(--STE-text-h), var(--STE-text-s), var(--STE-primary-l));
+
+    --STE-green-h: 163;
+    --STE-green-s: 85%;
+    --STE-green-l: 40%;
+    --STE-green: hsl(var(--STE-green-h), var(--STE-green-s), var(--STE-green-l));
+
+    --STE-orange-h: 38;
+    --STE-orange-s: 100%;
+    --STE-orange-l: 55%;
+    --STE-orange: hsl(var(--STE-orange-h), var(--STE-orange-s), var(--STE-orange-l));
+
+    --STE-background-h: 0;
+    --STE-background-s: 0%;
+    --STE-background-l: 100%;
+    --STE-background: hsl(var(--STE-background-h), var(--STE-background-s), var(--STE-background-l));
+
+
+    --all-colors:
+    h: 0
+    s: 0%
+    l: 0%
+    /* text */
+    hsla(0, 0%, 0%, 0.1)
+    hsla(var(--STE-text-h), var(--STE-text-s), var(--STE-text-l), 0.1)
+    = rgba(0, 0, 0, 0.1)
+    
+    hsla(0, 0%, 0%, 0.2)
+    hsla(var(--STE-text-h), var(--STE-text-s), var(--STE-text-l), 0.2)
+    = rgba(0, 0, 0, 0.2)
+
+    hsla(0, 0%, 0%, 0.45)
+    hsla(var(--STE-text-h), var(--STE-text-s), var(--STE-text-l), 0.45)
+    = rgba(0, 0, 0, 0.45)
+
+    
+    h: 240
+    s: 10%
+    l: 50%
+    /* Gray */
+    hsl(0, 0%, 40%)
+    hsl(0, 0%, calc(var(--STE-gray-l) * 40 / 50))
+    = #666
+    
+    hsl(0, 0%, 42%)
+    hsl(0, 0%, calc(var(--STE-gray-l) * 42 / 50))
+    = #6c6c6c
+    
+    hsl(240, 10%, 44%)
+    hsl(var(--STE-gray-h), var(--STE-gray-s), calc(var(--STE-gray-l) * 44 / 50))
+    = #65657c
+
+    hsl(240, 10%, 48%)
+    hsl(var(--STE-gray-h), var(--STE-gray-s), calc(var(--STE-gray-l) * 48 / 50))
+    = #6e6e87
+
+    hsl(0, 0%, 53%)
+    hsl(0, 0%, calc(var(--STE-gray-l) * 53 / 50))
+    = #888
+
+    hsl(0, 0%, 60%)
+    hsl(0, 0%, calc(var(--STE-gray-l) * 60 / 50))
+    = #999
+
+
+
+    h: 210 
+    s: 100%
+    l: 80%
+    /* primary */
+    hsl(198, 59%, 43%)
+    hsl(calc(var(--STE-primary-h) * 198 / 210), calc(var(--STE-primary-s) * 59 / 100), calc(var(--STE-primary-l) * 43 / 80))
+    = #2d86adff
+    
+    hsl(198, 61%, 48%)
+    hsl(calc(var(--STE-primary-h) * 198 / 210), calc(var(--STE-primary-s) * 61 / 100), calc(var(--STE-primary-l) * 48 / 80))
+    = #3097c4ff
+    
+    hsl(200, 64%, 49%)
+    hsl(calc(var(--STE-primary-h) * 200 / 210), calc(var(--STE-primary-s) * 64 / 100), calc(var(--STE-primary-l) * 49 / 80))
+    = #2d97ccff
+    
+    hsl(200, 95%, 59%)
+    hsl(calc(var(--STE-primary-h) * 200 / 210), calc(var(--STE-primary-s) * 95 / 100), calc(var(--STE-primary-l) * 59 / 80))
+    = #32b6faff
+    
+    hsl(201, 66%, 45%)
+    hsl(calc(var(--STE-primary-h) * 201 / 210), calc(var(--STE-primary-s) * 66 / 100), calc(var(--STE-primary-l) * 45 / 80))
+    = #278bbfff
+    
+    hsl(201, 70%, 52%)
+    hsl(calc(var(--STE-primary-h) * 201 / 210), calc(var(--STE-primary-s) * 70 / 100), calc(var(--STE-primary-l) * 52 / 80))
+    = #2f9fdbff
+    
+    hsl(203, 56%, 33%)
+    hsl(calc(var(--STE-primary-h) * 203 / 210), calc(var(--STE-primary-s) * 56 / 100), calc(var(--STE-primary-l) * 33 / 80))
+    = #256185ff
+    
+    hsl(204, 69%, 53%)
+    hsl(calc(var(--STE-primary-h) * 204 / 210), calc(var(--STE-primary-s) * 69 / 100), calc(var(--STE-primary-l) * 53 / 80))
+    = #3397d9ff
+    
+    hsl(204, 69%, 53%)
+    hsl(calc(var(--STE-primary-h) * 204 / 210), calc(var(--STE-primary-s) * 69 / 100), calc(var(--STE-primary-l) * 53 / 80))
+    = #3397d9
+    
+    hsl(210, 100%, 80%)
+    hsl(calc(var(--STE-primary-h) * 210 / 210), calc(var(--STE-primary-s) * 100 / 100), calc(var(--STE-primary-l) * 80 / 80))
+    = hsla(210, 100%, 80%, 1)
+    
+    hsla(210, 100%, 80%, 0.75)
+    hsla(calc(var(--STE-primary-h) * 210 / 210), calc(var(--STE-primary-s) * 100 / 100), calc(var(--STE-primary-l) * 80 / 80), 0.75)
+    = hsla(210, 100%, 80%, 0.75)
+    
+    hsla(210, 100%, 80%, 0.35)
+    hsla(calc(var(--STE-primary-h) * 210 / 210), calc(var(--STE-primary-s) * 100 / 100), calc(var(--STE-primary-l) * 80 / 80), 0.35)
+    = hsla(210, 100%, 80%, 0.35)
+    
+    hsl(211, 95%, 85%)
+    hsl(calc(var(--STE-primary-h) * 211 / 210), calc(var(--STE-primary-s) * 95 / 100), calc(var(--STE-primary-l) * 85 / 80))
+    = #b6d8fd
+    
+    hsla(212, 60%, 60%, 0.25)
+    hsla(calc(var(--STE-primary-h) * 212 / 210), calc(var(--STE-primary-s) * 60 / 100), calc(var(--STE-primary-l) * 60 / 80), 0.25)
+    = rgba(92, 149, 214, 0.25)
+    
+    hsl(214, 74%, 59%)
+    hsl(calc(var(--STE-primary-h) * 214 / 210), calc(var(--STE-primary-s) * 74 / 100), calc(var(--STE-primary-l) * 59 / 80))
+    = #488ce4
+    
+    hsl(215, 100%, 65%)
+    hsl(calc(var(--STE-primary-h) * 215 / 210), calc(var(--STE-primary-s) * 100 / 100), calc(var(--STE-primary-l) * 65 / 80))
+    = #4d97ff
+    
+    hsl(215, 99%, 65%)
+    hsl(calc(var(--STE-primary-h) * 215 / 210), calc(var(--STE-primary-s) * 99 / 100), calc(var(--STE-primary-l) * 65 / 80))
+    = hsla(215, 99%, 65%, 1)
+    
+    hsl(215, 99%, 65%)
+    hsl(calc(var(--STE-primary-h) * 215 / 210), calc(var(--STE-primary-s) * 99 / 100), calc(var(--STE-primary-l) * 65 / 80))
+    = #4e97fe
+    
+    hsla(215, 99%, 65%, 0.082)
+    hsl(calc(var(--STE-primary-h) * 215 / 210), calc(var(--STE-primary-s) * 99 / 100), calc(var(--STE-primary-l) * 65 / 80), 0.082)
+    = #4e97fe15
+    
+    hsla(215, 99%, 65%, 0.208)
+    hsl(calc(var(--STE-primary-h) * 215 / 210), calc(var(--STE-primary-s) * 99 / 100), calc(var(--STE-primary-l) * 65 / 80), 0.208)
+    = #4e97fe35
+    
+    hsla(219, 100%, 71%, 0.15)
+    hsl(calc(var(--STE-primary-h) * 219 / 210), calc(var(--STE-primary-s) * 100 / 100), calc(var(--STE-primary-l) * 71 / 80), 0.15)
+    = rgba(108, 160, 255, 0.15)
+    
+
+    h: 163
+    s: 85%
+    l: 40%
+    /* Green */
+    hsl(143, 45%, 36%)
+    hsl(calc(var(--STE-green-h) * 143 / 163), calc(var(--STE-green-s) * 45 / 85), calc(var(--STE-green-l) * 36 / 40))
+    = #338553
+    
+    hsl(163, 85%, 40%)
+    var(--STE-green)
+    = hsla(163, 85%, 40%, 1)
+    
+    hsl(163, 85%, 40%)
+    hsl(calc(var(--STE-green-h) * 163 / 163), calc(var(--STE-green-s) * 85 / 85), calc(var(--STE-green-l) * 40 / 40))
+    = #0fbd8c
+    
+
+    h: 38
+    s: 100%
+    l: 55%
+    /* Orange */
+    hsl(35, 93%, 56%)
+    hsl(calc(var(--STE-orange-h) * 35 / 38), calc(var(--STE-orange-s) * 93 / 100), calc(var(--STE-orange-l) * 56 / 55))
+    = #f7a028
+    
+    hsl(38, 100%, 55%)
+    var(--STE-orange)
+    = #ffaa1a
+    
+    hsl(45, 100%, 50%)
+    hsl(calc(var(--STE-orange-h) * 45 / 38), calc(var(--STE-orange-s) * 100 / 100), calc(var(--STE-orange-l) * 50 / 55))
+    = #ffbf00
+    
+
+    h: 0
+    s: 0%
+    l: 100%
+    /* background */
+    hsl(0, 0%, 80%)
+    hsl(var(--STE-background-h), var(--STE-background-s), calc(var(--STE-background-l) * 80 / 100))
+    = #ccc
+    
+    hsl(0, 0%, 90%)
+    hsl(var(--STE-background-h), var(--STE-background-s), calc(var(--STE-background-l) * 90 / 100))
+    = #e6e6e6
+    
+    hsl(0, 0%, 100%)
+    var(--STE-background)
+    = white
+    
+    hsl(0, 0%, 100%)
+    var(--STE-background)
+    = #fff
+    
+    ;
+}

@@ -1,0 +1,7 @@
+.hi {
+    --text: hsl(0, 0%, 100%);
+    --background: hsl(0, 0%, 10%);
+    --primary: hsl(16, 100%, 50%);
+    --secondary: hsl(30, 100%, 65%);
+    --accent: hsl(0, 0%, 22%);
+}

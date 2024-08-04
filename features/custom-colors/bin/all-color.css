@@ -1,0 +1,169 @@
+.all-colors {
+    --background: rgb(245, 245, 245);
+    --feature: rgb(227, 227, 227);
+    --gradient-a: rgb(78, 151, 254);
+    --gradient-b: rgb(78, 151, 254);
+    --input: rgb(227, 227, 227);
+    --primary: rgb(43, 128, 254);
+    --scrollbar: rgb(20, 118, 255);
+    --scrollbar_active: rgb(78, 151, 254);
+    --searchbar: rgb(227, 227, 227);
+    --secondary: rgb(61, 61, 61);
+    --slider: rgb(168, 188, 214);
+    --theme: rgb(48, 131, 254);
+
+
+
+    --all-colors-place--type-and-use:
+
+    /*** Explore: https://scratch.mit.edu/explore/projects/all ***/
+    /** li buttons **/ 
+    rgba(0, 0, 0, 0.1) = rgba(0, 0, 0, 0.1) /* background-color */
+    rgba(0, 0, 0, 0.2) = rgba(0, 0, 0, 0.2) /* background-color:hover*/
+
+    /*** My Stuff: https://scratch.mit.edu/mystuff/ ***/
+    /** a buttons **/
+    rgba(0, 0, 0, 0.45) = rgba(0, 0, 0, 0.45) /* color */
+
+    /*** Editor: https://scratch.mit.edu/projects/----/editor ***/
+    /** button buttons **/
+    rgb(15, 189, 140) = hsla(163, 85%, 40%, 1) /* background */
+
+    /*** Global ***/
+    rgb(15, 189, 140) = #0fbd8c
+    
+    /*** Profile: https://scratch.mit.edu/users/user/ ***/
+    /** li buttons **/ 
+    /** input buttons **/
+    rgb(37, 97, 133) = #256185ff /* background-color */ /* border-color */ /* border-bottom-color */
+
+    /*** Global ***/
+    rgb(39, 139, 191) = #278bbfff
+
+    /*** Continue on place and type ***/
+
+    rgb(45, 151, 204) = #2d97ccff /* border-color */ /* border-top-color */
+
+
+    rgb(45, 134, 173) = #2d86adff /* border-bottom-color */
+
+    rgb(47, 159, 219) = #2f9fdbff /* background-image: linear-gradient */
+    
+    rgb(48, 151, 196) = #3097c4ff /* border-color */
+
+    rgb(50, 182, 250) = #32b6faff /* background-image: linear-gradient */
+    
+    rgb(51, 151, 217) = #3397d9ff /* color */ /* background-color */
+
+    /*** Global ***/
+    rgb(51, 133, 83) = #338553
+
+    rgb(51, 151, 217) = #3397d9 /* color */
+
+    rgb(72, 140, 228) = #488ce4 /* background-color */
+
+    rgb(77, 151, 255) = #4d97ff /* background-color */ /* outline-color */ /* color */ /* border */ /* border-color */ /* background */
+
+    rgb(77, 151, 254) = hsla(215, 99%, 65%, 1) /* background */ /* border */
+
+    /*** Global ***/
+    rgb(78, 151, 254) = #4e97fe
+
+    rgba(78, 151, 254, 0.082) = #4e97fe15 /* background-color */
+
+    rgba(78, 151, 254, 0.208) = #4e97fe35 /* box-shadow */ /* -webkit-box-shadow */
+    
+    rgba(92, 149, 214, 0.25) = rgba(92, 149, 214, 0.25) /* box-shadow */
+
+    rgb(101, 101, 124) = #65657c /* color */
+    
+    rgb(102, 102, 102) = #666 /* color */
+    
+    rgb(108, 108, 108) = #6c6c6c /* border */
+
+    rgba(108, 160, 255, 0.15) = rgba(108, 160, 255, 0.15) /* background-color */
+    
+    rgb(110, 110, 135) = #6e6e87 /* color */
+
+    rgb(136, 136, 136) = #888 /* color */
+    
+    rgb(153, 153, 153) = #999 /* border-color */
+    
+    rgb(153, 204, 255) = hsla(210, 100%, 80%, 1) /* box-shadow */
+
+    rgba(153, 204, 255, 0.35) = hsla(210, 100%, 80%, 0.35) /* box-shadow */
+
+    rgba(153, 204, 255, 0.75) = hsla(210, 100%, 80%, 0.75) /* box-shadow */
+
+    rgb(182, 216, 253) = #b6d8fd /* background-color */
+
+    rgb(204, 204, 204) = #ccc /* background-image: -webkit-linear-gradient */
+
+    rgb(230, 230, 230) = #e6e6e6 /* background-image: -webkit-linear-gradient */ /* background-color */
+    
+    rgb(247, 160, 40) = #f7a028 /* background-color */
+
+    /*** Global ***/
+    rgb(255, 191, 0) = #ffbf00
+
+    rgb(255, 255, 255) = #fff /* background-image: -webkit-linear-gradient */
+
+    rgb(255, 170, 26) = #ffaa1a /* background-color */
+    rgb(255, 255, 255) = white /* color */ 
+;    
+    --all-colors:
+    /* Transparent */
+    rgba(78, 151, 254, 0.082) = #4e97fe15 /* background-color */
+    rgba(78, 151, 254, 0.208) = #4e97fe35 /* box-shadow */ /* -webkit-box-shadow */
+    rgba(92, 149, 214, 0.25) = rgba(92, 149, 214, 0.25) /* box-shadow */
+    rgba(108, 160, 255, 0.15) = rgba(108, 160, 255, 0.15) /* background-color */
+    rgba(153, 204, 255, 0.75) = hsla(210, 100%, 80%, 0.75) /* box-shadow */
+    rgba(153, 204, 255, 0.35) = hsla(210, 100%, 80%, 0.35) /* box-shadow */
+
+    /* text */
+    rgba(0, 0, 0, 0.1) = rgba(0, 0, 0, 0.1) /* background-color */
+    rgba(0, 0, 0, 0.2) = rgba(0, 0, 0, 0.2) /* background-color:hover*/
+    rgba(0, 0, 0, 0.45) = rgba(0, 0, 0, 0.45) /* color */
+    
+    /* Gray */
+    rgb(101, 101, 124) = #65657c /* color */
+    rgb(102, 102, 102) = #666 /* color */
+    rgb(108, 108, 108) = #6c6c6c /* border */
+    rgb(110, 110, 135) = #6e6e87 /* color */
+    rgb(136, 136, 136) = #888 /* color */
+    rgb(153, 153, 153) = #999 /* border-color */
+    
+    /* primary */
+    rgb(37, 97, 133) = #256185ff /* background-color */ /* border-color */ /* border-bottom-color */
+    rgb(39, 139, 191) = #278bbfff /*** Global ***/
+    rgb(45, 151, 204) = #2d97ccff /* border-color */ /* border-top-color */
+    rgb(45, 134, 173) = #2d86adff /* border-bottom-color */
+    rgb(47, 159, 219) = #2f9fdbff /* background-image: linear-gradient */
+    rgb(48, 151, 196) = #3097c4ff /* border-color */
+    rgb(50, 182, 250) = #32b6faff /* background-image: linear-gradient */
+    rgb(51, 151, 217) = #3397d9ff /* color */ /* background-color */
+    rgb(51, 151, 217) = #3397d9 /* color */
+    rgb(72, 140, 228) = #488ce4 /* background-color */
+    rgb(77, 151, 255) = #4d97ff /* background-color */ /* outline-color */ /* color */ /* border */ /* border-color */ /* background */
+    rgb(77, 151, 254) = hsla(215, 99%, 65%, 1) /* background */ /* border */
+    rgb(78, 151, 254) = #4e97fe /*** Global ***/
+    rgb(153, 204, 255) = hsla(210, 100%, 80%, 1) /* box-shadow */
+    rgb(182, 216, 253) = #b6d8fd /* background-color */
+    
+    /* Green */
+    rgb(15, 189, 140) = hsla(163, 85%, 40%, 1) /* background */
+    rgb(15, 189, 140) = #0fbd8c /*** Global ***/
+    rgb(51, 133, 83) = #338553 /*** Global ***/
+    
+    /* Orange */
+    rgb(247, 160, 40) = #f7a028 /* background-color */
+    rgb(255, 191, 0) = #ffbf00 /*** Global ***/
+    rgb(255, 170, 26) = #ffaa1a /* background-color */
+    
+    /* White */
+    rgb(204, 204, 204) = #ccc /* background-image: -webkit-linear-gradient */
+    rgb(230, 230, 230) = #e6e6e6 /* background-image: -webkit-linear-gradient */ /* background-color */
+    rgb(255, 255, 255) = white /* color */ 
+    rgb(255, 255, 255) = #fff /* background-image: -webkit-linear-gradient */
+    ;
+}

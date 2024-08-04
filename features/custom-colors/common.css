@@ -1,0 +1,54 @@
+html,
+body {
+    background-color: #855cd6;
+    color: #575e75;
+}
+h1,
+h2,
+h3,
+h4 {
+    color: #575e75;
+}
+p.callout {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(77, 151, 255, 0.1);
+}
+p.callout.orange {
+    background-color: rgba(244, 157, 37, 0.1);
+}
+a {
+    color: #855cd6;
+}
+a:link,
+a:visited,
+a:active {
+    color: #855cd6;
+}
+a:hover {
+    color: #7854c0;
+}
+.empty {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(77, 151, 255, 0.1);
+    color: #575e75;
+}
+.empty h4 {
+    color: #575e75;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    color: #575e75;
+}
+input {
+    outline-color: #855cd6;
+}
+::selection {
+    background-color: rgba(77, 151, 255, 0.25);
+}
+#view {
+    background-color: #fcfcfc;
+}

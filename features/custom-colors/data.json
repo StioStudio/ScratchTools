@@ -1,0 +1,19 @@
+{
+    "title": "Custom Colors",
+    "description": "Choose your own colors.",
+    "credits": [
+      { "username": "MaterArc", "url": "https://scratch.mit.edu/users/materarc/" },
+      { "username": "rgantzos", "url": "https://scratch.mit.edu/users/rgantzos/" },
+      { "username": "stio_studio", "url": "https://stio.studio/" }
+    ],
+    "styles": [
+      { "file": "common.css", "runOn": "/*" },
+      { "file": "normalize.min.css", "runOn": "/*" },
+      { "file": "splash.css", "runOn": "/*" }
+
+    ],
+    "tags": ["Theme", "New"],
+    "type": ["Website", "Editor"],
+    "dynamic": true
+  }
+  
